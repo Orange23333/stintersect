@@ -1,0 +1,7 @@
+# 更换镜像源
+python -m pip install --upgrade pip
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+# opencv-python的安装并将cv2导入Pycharm以及导入cv2后无法自动补全的问题的解决方法: https://www.codenong.com/cs106626561/
+.../Lib/site-packages/cv2
+.../Lib/site-packages/cv2/data
